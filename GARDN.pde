@@ -1,18 +1,29 @@
-
 int count;
 
 Date time;
-Date now = new Date();
+Date day1; // June 22
+Date day2; // June 23
+Date day3; // June 24
+Date day4; // June 25
+Date after;
+Date before;
+Date daybefore; // June 21
 DateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ss'Z'");
 
 void setup() {
   size( 640,200);
-  
-  // Download RSS feed of news stories from yahoo.com
   String url = "presledtweets.xml";
   XMLElement rss = new XMLElement(this, url);
-  // Get all  elements
   XMLElement[] tweets = rss.getChildren();
+  
+  
+  try
+  {
+    before = df.parse("2011-06-20T00:00:00Z");
+    daybefore = df.parse("2011-06-21T00:00:00Z");
+    day1 = df.parse("2011-06-22T00:00:00Z");
+  }
+  catch(ParseException pe){println(pe); }
   
   
   // iterate through each tweet
@@ -24,21 +35,25 @@ void setup() {
       // find the date and converts it to a Java date object
       try
       {
+        // convert web string into a Java Date object
         time = df.parse(  tweets[i].getChild("published").getContent() );
-        println( time );
+        
+        // find out number of tweets before this date
+        if ( time.before(day1) )
+               count++;
       }
       catch(ParseException p)
       {
         println(p);
       }
 
-      count++;
     }
   }
   
   println(count);
-  println(now);
   
+  
+  // drawing stuff
   background(0);
   stroke(255,100);
   fill(255,100);
