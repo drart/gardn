@@ -13,3 +13,9 @@ Links to Useful, Relevant, and Interesting Stuff
 * http://dev.twitter.com/pages/streaming_api_methods
 * http://dev.twitter.com/doc/get/search
 * http://taptaptap.com/blog/cameraplus-the-road-to-3-million/
+
+TODO
+----
+
+* Write a bash script to grab twitter info (command querry pages)
+* Write a bash script to get ids and then grab all followers from that person

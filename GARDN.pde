@@ -1,23 +1,34 @@
 int count;
 
 Date time;
-
 Date festivalDay[] = new Date[7]; // June [0]<20,[1]20,[2]21,[3]22,[4]23,[5]25,[6]26
+Date lastHour = new Date();
 int tweetsThisDay[] = new int[7];
 DateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ss'Z'"); // date format from twitter ATOM
 int tweetsThisHour[] = new int[24];
-
 float hourAngle = TWO_PI / 24.0;
-
 PFont font;
 
+int fd = 1;
 
 void setup() {
   size( 400, 300);
   smooth();
 
-  String url = "presledtweets.xml";
-  XMLElement rss = new XMLElement(this, url);
+  parseTweets( "presledtweets.xml" );
+  
+  drawCircleDiagram(tweetsThisHour);
+
+}
+
+
+Date[] parseTweets(String file) // or pass a date to this? int[] parseTweets(String file, Date day)
+{
+  Date[] d = new Date[10];
+  
+  
+  
+  XMLElement rss = new XMLElement(this, file);
   XMLElement[] tweets = rss.getChildren();
 
   try
@@ -28,7 +39,15 @@ void setup() {
   catch(ParseException pe) {
     println(pe);
   }
-
+  
+  Calendar c =  Calendar.getInstance(); 
+  c.setTime(festivalDay[fd]);
+  
+  /// for hours in the date inc temp and date by hour and count tweets in window
+  lastHour = festivalDay[fd];
+  c.add(Calendar.HOUR,1);
+  festivalDay[fd] = c.getTime();
+  
   // iterate through each tweet
   for (int i = 0; i < tweets.length; i++) {
     if (tweets[i].getName().equals("entry"))
@@ -40,19 +59,26 @@ void setup() {
         // convert web string into a Java Date object
         time = df.parse(  tweets[i].getChild("published").getContent() );
 
-        // find out number of tweets before this date
-        if ( time.before(festivalDay[0]) )
-          count++;
+        
+        if ( time.before(festivalDay[fd]) && time.after(lastHour) )
+          tweetsThisHour[0]++;
       }
-      catch(ParseException p) { 
-        println(p);
-      }
+      catch(ParseException p) { println(p); }
     }
   }
+  for ( int i = 0; i < 24; i++)
+  {
+    println(i+","+tweetsThisHour[i]);
+    // put in a normalization feature here
+    //tweetsThisHour[i] = tweetsThisHour[i] * 2; 
+  }
+  
+  return d;
+}
 
-  println(count);
-
-  // drawing stuff
+void drawCircleDiagram(int[] tweetsThisHour)
+{
+   // drawing stuff
   background(0);
   translate(width/2, height/2);
 
@@ -72,18 +98,12 @@ void setup() {
   beginShape();
 
   pushMatrix();
-  float RR = 0;
-  ;
-  for ( int i = 0; i < 24 ; i++ )
+  for ( int i = 0; i < tweetsThisHour.length + 1 ; i++ )
   {
-    // x = Rcos(theta), y = Rsin(theta)
-    float R = random(20, 100); 
-    if (i ==0) RR=R;
-    vertex( R*cos(i*hourAngle-HALF_PI), R*sin(i*hourAngle - HALF_PI)  );
+    // x = Rcos(theta), y = Rsin(theta) where R is tweetsThisHour
+    vertex( tweetsThisHour[i%tweetsThisHour.length]*cos(i*hourAngle-HALF_PI), tweetsThisHour[i%tweetsThisHour.length]*sin(i*hourAngle - HALF_PI)  );
+    // connect back to origin with % operator
   }
-  // connect back to origin
-  vertex( RR*cos(0-HALF_PI), RR*sin(0-HALF_PI) ) ;
-  // vertex(tweetsThisHour[0]*cos(0), tweetsThisHour[0]*sin(0);
   popMatrix();
   endShape();
 
@@ -96,10 +116,8 @@ void setup() {
   String[] tokens = theDayString.split(delims);
   text( new StringBuffer(tokens[0]).insert(3, "e").toString(), -width/2 + 10, -height/2 + 30);
 
-
   NumberFormat nf = NumberFormat.getInstance();
   nf.setMinimumIntegerDigits(2);
-
 
   textFont(font, 10);
   textAlign(CENTER);
@@ -108,6 +126,13 @@ void setup() {
     int number = i;
     if (i == 0) number = 24;
     text(nf.format(number)+":00", 110*cos(i*hourAngle-HALF_PI), 110*sin(i*hourAngle - HALF_PI) );
-  }
+  } 
 }
+
+
+void drawWeekDiagram()
+{
+  
+}
+
 
