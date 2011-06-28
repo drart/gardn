@@ -2015,20 +2015,6 @@
       <uri>http://twitter.com/hayleymmuir</uri>
     </author>
   </entry>
-</feed>
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:georss="http://www.georss.org/georss" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
-  <id>tag:search.twitter.com,2005:search/Sledisland</id>
-  <link type="text/html" href="http://search.twitter.com/search?q=Sledisland" rel="alternate"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=Sledisland&amp;rpp=100&amp;page=2" rel="self"/>
-  <title>Sledisland - Twitter Search</title>
-  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?page=2&amp;q=Sledisland&amp;rpp=100&amp;since_id=85422140383428608" rel="refresh"/>
-  <twitter:warning>since_id removed for pagination.</twitter:warning>
-  <updated>2011-06-27T06:45:58Z</updated>
-  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=1&amp;q=Sledisland&amp;rpp=100" rel="previous"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=3&amp;q=Sledisland&amp;rpp=100" rel="next"/>
   <entry>
     <id>tag:search.twitter.com,2005:85237414972489729</id>
     <published>2011-06-27T06:45:58Z</published>
@@ -4043,20 +4029,6 @@ ditto</content>
       <uri>http://twitter.com/zakpashak</uri>
     </author>
   </entry>
-</feed>
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:georss="http://www.georss.org/georss" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
-  <id>tag:search.twitter.com,2005:search/Sledisland</id>
-  <link type="text/html" href="http://search.twitter.com/search?q=Sledisland" rel="alternate"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=Sledisland&amp;rpp=100&amp;page=3" rel="self"/>
-  <title>Sledisland - Twitter Search</title>
-  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?page=3&amp;q=Sledisland&amp;rpp=100&amp;since_id=85422140383428608" rel="refresh"/>
-  <twitter:warning>since_id removed for pagination.</twitter:warning>
-  <updated>2011-06-26T23:57:34Z</updated>
-  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=2&amp;q=Sledisland&amp;rpp=100" rel="previous"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=4&amp;q=Sledisland&amp;rpp=100" rel="next"/>
   <entry>
     <id>tag:search.twitter.com,2005:85134641153056768</id>
     <published>2011-06-26T23:57:34Z</published>
@@ -6073,20 +6045,6 @@ ditto</content>
       <uri>http://twitter.com/SlowdownMolasse</uri>
     </author>
   </entry>
-</feed>
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:georss="http://www.georss.org/georss" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
-  <id>tag:search.twitter.com,2005:search/Sledisland</id>
-  <link type="text/html" href="http://search.twitter.com/search?q=Sledisland" rel="alternate"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=Sledisland&amp;rpp=100&amp;page=4" rel="self"/>
-  <title>Sledisland - Twitter Search</title>
-  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?page=4&amp;q=Sledisland&amp;rpp=100&amp;since_id=85422140383428608" rel="refresh"/>
-  <twitter:warning>since_id removed for pagination.</twitter:warning>
-  <updated>2011-06-26T19:13:38Z</updated>
-  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=3&amp;q=Sledisland&amp;rpp=100" rel="previous"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=5&amp;q=Sledisland&amp;rpp=100" rel="next"/>
   <entry>
     <id>tag:search.twitter.com,2005:85063185752797186</id>
     <published>2011-06-26T19:13:38Z</published>
@@ -8101,20 +8059,6 @@ ditto</content>
       <uri>http://twitter.com/mkyeg</uri>
     </author>
   </entry>
-</feed>
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:georss="http://www.georss.org/georss" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
-  <id>tag:search.twitter.com,2005:search/Sledisland</id>
-  <link type="text/html" href="http://search.twitter.com/search?q=Sledisland" rel="alternate"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=Sledisland&amp;rpp=100&amp;page=5" rel="self"/>
-  <title>Sledisland - Twitter Search</title>
-  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?page=5&amp;q=Sledisland&amp;rpp=100&amp;since_id=85422140383428608" rel="refresh"/>
-  <twitter:warning>since_id removed for pagination.</twitter:warning>
-  <updated>2011-06-26T08:57:09Z</updated>
-  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=4&amp;q=Sledisland&amp;rpp=100" rel="previous"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=6&amp;q=Sledisland&amp;rpp=100" rel="next"/>
   <entry>
     <id>tag:search.twitter.com,2005:84908040880533504</id>
     <published>2011-06-26T08:57:09Z</published>
@@ -10142,20 +10086,6 @@ ditto</content>
       <uri>http://twitter.com/EROCKATOCK</uri>
     </author>
   </entry>
-</feed>
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:georss="http://www.georss.org/georss" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
-  <id>tag:search.twitter.com,2005:search/Sledisland</id>
-  <link type="text/html" href="http://search.twitter.com/search?q=Sledisland" rel="alternate"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=Sledisland&amp;rpp=100&amp;page=6" rel="self"/>
-  <title>Sledisland - Twitter Search</title>
-  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?page=6&amp;q=Sledisland&amp;rpp=100&amp;since_id=85422140383428608" rel="refresh"/>
-  <twitter:warning>since_id removed for pagination.</twitter:warning>
-  <updated>2011-06-26T06:12:38Z</updated>
-  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=5&amp;q=Sledisland&amp;rpp=100" rel="previous"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=7&amp;q=Sledisland&amp;rpp=100" rel="next"/>
   <entry>
     <id>tag:search.twitter.com,2005:84866639572643840</id>
     <published>2011-06-26T06:12:38Z</published>
@@ -12192,20 +12122,6 @@ Dedication: guy crowd surfing with crutches!  &lt;a href=&quot;http://search.twi
       <uri>http://twitter.com/jpresz</uri>
     </author>
   </entry>
-</feed>
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:georss="http://www.georss.org/georss" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
-  <id>tag:search.twitter.com,2005:search/Sledisland</id>
-  <link type="text/html" href="http://search.twitter.com/search?q=Sledisland" rel="alternate"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=Sledisland&amp;rpp=100&amp;page=7" rel="self"/>
-  <title>Sledisland - Twitter Search</title>
-  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?page=7&amp;q=Sledisland&amp;rpp=100&amp;since_id=85422140383428608" rel="refresh"/>
-  <twitter:warning>since_id removed for pagination.</twitter:warning>
-  <updated>2011-06-26T04:45:42Z</updated>
-  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=6&amp;q=Sledisland&amp;rpp=100" rel="previous"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=8&amp;q=Sledisland&amp;rpp=100" rel="next"/>
   <entry>
     <id>tag:search.twitter.com,2005:84844761948749824</id>
     <published>2011-06-26T04:45:42Z</published>
@@ -14230,20 +14146,6 @@ Dedication: guy crowd surfing with crutches!  &lt;a href=&quot;http://search.twi
       <uri>http://twitter.com/jskoleszar</uri>
     </author>
   </entry>
-</feed>
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:georss="http://www.georss.org/georss" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
-  <id>tag:search.twitter.com,2005:search/Sledisland</id>
-  <link type="text/html" href="http://search.twitter.com/search?q=Sledisland" rel="alternate"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=Sledisland&amp;rpp=100&amp;page=8" rel="self"/>
-  <title>Sledisland - Twitter Search</title>
-  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?page=8&amp;q=Sledisland&amp;rpp=100&amp;since_id=85422140383428608" rel="refresh"/>
-  <twitter:warning>since_id removed for pagination.</twitter:warning>
-  <updated>2011-06-26T03:29:12Z</updated>
-  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=7&amp;q=Sledisland&amp;rpp=100" rel="previous"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=9&amp;q=Sledisland&amp;rpp=100" rel="next"/>
   <entry>
     <id>tag:search.twitter.com,2005:84825511263600640</id>
     <published>2011-06-26T03:29:12Z</published>
@@ -16264,20 +16166,6 @@ Dedication: guy crowd surfing with crutches!  &lt;a href=&quot;http://search.twi
       <uri>http://twitter.com/matthirji</uri>
     </author>
   </entry>
-</feed>
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:georss="http://www.georss.org/georss" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
-  <id>tag:search.twitter.com,2005:search/Sledisland</id>
-  <link type="text/html" href="http://search.twitter.com/search?q=Sledisland" rel="alternate"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=Sledisland&amp;rpp=100&amp;page=9" rel="self"/>
-  <title>Sledisland - Twitter Search</title>
-  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?page=9&amp;q=Sledisland&amp;rpp=100&amp;since_id=85422140383428608" rel="refresh"/>
-  <twitter:warning>since_id removed for pagination.</twitter:warning>
-  <updated>2011-06-26T01:47:50Z</updated>
-  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=8&amp;q=Sledisland&amp;rpp=100" rel="previous"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=10&amp;q=Sledisland&amp;rpp=100" rel="next"/>
   <entry>
     <id>tag:search.twitter.com,2005:84799999283707904</id>
     <published>2011-06-26T01:47:50Z</published>
@@ -18298,20 +18186,6 @@ Dedication: guy crowd surfing with crutches!  &lt;a href=&quot;http://search.twi
       <uri>http://twitter.com/matthirji</uri>
     </author>
   </entry>
-</feed>
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:georss="http://www.georss.org/georss" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
-  <id>tag:search.twitter.com,2005:search/Sledisland</id>
-  <link type="text/html" href="http://search.twitter.com/search?q=Sledisland" rel="alternate"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=Sledisland&amp;rpp=100&amp;page=10" rel="self"/>
-  <title>Sledisland - Twitter Search</title>
-  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?page=10&amp;q=Sledisland&amp;rpp=100&amp;since_id=85422140383428608" rel="refresh"/>
-  <twitter:warning>since_id removed for pagination.</twitter:warning>
-  <updated>2011-06-25T23:42:16Z</updated>
-  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=9&amp;q=Sledisland&amp;rpp=100" rel="previous"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=11&amp;q=Sledisland&amp;rpp=100" rel="next"/>
   <entry>
     <id>tag:search.twitter.com,2005:84768399661608960</id>
     <published>2011-06-25T23:42:16Z</published>
@@ -20329,20 +20203,6 @@ Dedication: guy crowd surfing with crutches!  &lt;a href=&quot;http://search.twi
       <uri>http://twitter.com/Prohab</uri>
     </author>
   </entry>
-</feed>
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:georss="http://www.georss.org/georss" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
-  <id>tag:search.twitter.com,2005:search/Sledisland</id>
-  <link type="text/html" href="http://search.twitter.com/search?q=Sledisland" rel="alternate"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=Sledisland&amp;rpp=100&amp;page=11" rel="self"/>
-  <title>Sledisland - Twitter Search</title>
-  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?page=11&amp;q=Sledisland&amp;rpp=100&amp;since_id=85422140383428608" rel="refresh"/>
-  <twitter:warning>since_id removed for pagination.</twitter:warning>
-  <updated>2011-06-25T22:26:03Z</updated>
-  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=10&amp;q=Sledisland&amp;rpp=100" rel="previous"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=12&amp;q=Sledisland&amp;rpp=100" rel="next"/>
   <entry>
     <id>tag:search.twitter.com,2005:84749221282066432</id>
     <published>2011-06-25T22:26:03Z</published>
@@ -22370,20 +22230,6 @@ Dedication: guy crowd surfing with crutches!  &lt;a href=&quot;http://search.twi
       <uri>http://twitter.com/hernandezfisher</uri>
     </author>
   </entry>
-</feed>
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:georss="http://www.georss.org/georss" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
-  <id>tag:search.twitter.com,2005:search/Sledisland</id>
-  <link type="text/html" href="http://search.twitter.com/search?q=Sledisland" rel="alternate"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=Sledisland&amp;rpp=100&amp;page=12" rel="self"/>
-  <title>Sledisland - Twitter Search</title>
-  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?page=12&amp;q=Sledisland&amp;rpp=100&amp;since_id=85422140383428608" rel="refresh"/>
-  <twitter:warning>since_id removed for pagination.</twitter:warning>
-  <updated>2011-06-25T21:01:44Z</updated>
-  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=11&amp;q=Sledisland&amp;rpp=100" rel="previous"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=13&amp;q=Sledisland&amp;rpp=100" rel="next"/>
   <entry>
     <id>tag:search.twitter.com,2005:84728002587537408</id>
     <published>2011-06-25T21:01:44Z</published>
@@ -24396,20 +24242,6 @@ Dedication: guy crowd surfing with crutches!  &lt;a href=&quot;http://search.twi
       <uri>http://twitter.com/Stoicjason</uri>
     </author>
   </entry>
-</feed>
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:georss="http://www.georss.org/georss" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
-  <id>tag:search.twitter.com,2005:search/Sledisland</id>
-  <link type="text/html" href="http://search.twitter.com/search?q=Sledisland" rel="alternate"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=Sledisland&amp;rpp=100&amp;page=13" rel="self"/>
-  <title>Sledisland - Twitter Search</title>
-  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?page=13&amp;q=Sledisland&amp;rpp=100&amp;since_id=85422140383428608" rel="refresh"/>
-  <twitter:warning>since_id removed for pagination.</twitter:warning>
-  <updated>2011-06-25T19:00:47Z</updated>
-  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=12&amp;q=Sledisland&amp;rpp=100" rel="previous"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=14&amp;q=Sledisland&amp;rpp=100" rel="next"/>
   <entry>
     <id>tag:search.twitter.com,2005:84697561922945024</id>
     <published>2011-06-25T19:00:47Z</published>
@@ -26440,20 +26272,6 @@ http://ow.ly/i/dso7 #cmon #r3sledisland #sledisland -LG</title>
       <uri>http://twitter.com/cindyhrobert</uri>
     </author>
   </entry>
-</feed>
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:georss="http://www.georss.org/georss" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
-  <id>tag:search.twitter.com,2005:search/Sledisland</id>
-  <link type="text/html" href="http://search.twitter.com/search?q=Sledisland" rel="alternate"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=Sledisland&amp;rpp=100&amp;page=14" rel="self"/>
-  <title>Sledisland - Twitter Search</title>
-  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?page=14&amp;q=Sledisland&amp;rpp=100&amp;since_id=85422140383428608" rel="refresh"/>
-  <twitter:warning>since_id removed for pagination.</twitter:warning>
-  <updated>2011-06-25T10:14:06Z</updated>
-  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=13&amp;q=Sledisland&amp;rpp=100" rel="previous"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=15&amp;q=Sledisland&amp;rpp=100" rel="next"/>
   <entry>
     <id>tag:search.twitter.com,2005:84565018145857536</id>
     <published>2011-06-25T10:14:06Z</published>
@@ -28478,18 +28296,6 @@ http://ow.ly/i/dso7 #cmon #r3sledisland #sledisland -LG</title>
       <uri>http://twitter.com/MusicCriticCa</uri>
     </author>
   </entry>
-</feed>
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns:google="http://base.google.com/ns/1.0" xml:lang="en-US" xmlns:openSearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:georss="http://www.georss.org/georss" xmlns="http://www.w3.org/2005/Atom" xmlns:twitter="http://api.twitter.com/">
-  <id>tag:search.twitter.com,2005:search/Sledisland</id>
-  <link type="text/html" href="http://search.twitter.com/search?q=Sledisland" rel="alternate"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?q=Sledisland&amp;rpp=100&amp;page=15" rel="self"/>
-  <title>Sledisland - Twitter Search</title>
-  <link type="application/opensearchdescription+xml" href="http://search.twitter.com/opensearch.xml" rel="search"/>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?page=15&amp;q=Sledisland&amp;rpp=100&amp;since_id=85422140383428608" rel="refresh"/>
-  <updated>2011-06-25T06:48:45Z</updated>
-  <openSearch:itemsPerPage>100</openSearch:itemsPerPage>
-  <link type="application/atom+xml" href="http://search.twitter.com/search.atom?max_id=85422140383428608&amp;page=14&amp;q=Sledisland&amp;rpp=100" rel="previous"/>
   <entry>
     <id>tag:search.twitter.com,2005:84513339845263360</id>
     <published>2011-06-25T06:48:45Z</published>
@@ -30509,23 +30315,3 @@ http://ow.ly/i/dso7 #cmon #r3sledisland #sledisland -LG</title>
     </author>
   </entry>
 </feed>
-<?xml version="1.0" encoding="UTF-8"?>
-<hash>
-  <error>page parameter out of range</error>
-</hash>
-<?xml version="1.0" encoding="UTF-8"?>
-<hash>
-  <error>page parameter out of range</error>
-</hash>
-<?xml version="1.0" encoding="UTF-8"?>
-<hash>
-  <error>page parameter out of range</error>
-</hash>
-<?xml version="1.0" encoding="UTF-8"?>
-<hash>
-  <error>page parameter out of range</error>
-</hash>
-<?xml version="1.0" encoding="UTF-8"?>
-<hash>
-  <error>page parameter out of range</error>
-</hash>

@@ -17,5 +17,5 @@ Links to Useful, Relevant, and Interesting Stuff
 TODO
 ----
 
-* Write a bash script to grab twitter info (command querry pages)
+* Write a bash script to grab twitter info (command query pages)
 * Write a bash script to get ids and then grab all followers from that person
