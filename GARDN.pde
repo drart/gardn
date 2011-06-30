@@ -4,7 +4,7 @@ Date time;
 Date festivalDay[] = new Date[7]; // June [0]<20,[1]20,[2]21,[3]22,[4]23,[5]25,[6]26
 Date lastHour = new Date();
 int tweetsThisDay[] = new int[7];
-DateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ss'Z'"); // date format from twitter ATOM
+DateFormat df = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'"); // date format from twitter ATOM
 int tweetsThisHour[] = new int[24];
 float hourAngle = TWO_PI / 24.0;
 PFont font;
@@ -22,11 +22,11 @@ void setup() {
 }
 
 
-Date[] parseTweets(String file) // or pass a date to this? int[] parseTweets(String file, Date day)
+Date[] parseTweets(String file) // or pass a date to this? int[] parseTweets(String file, Date day) // actually int[][] for array of tweets per date found
 {
   Date[] d = new Date[10];
   
-  
+  ArrayList tweetsOfDays;
   
   XMLElement rss = new XMLElement(this, file);
   XMLElement[] tweets = rss.getChildren();
@@ -58,22 +58,38 @@ Date[] parseTweets(String file) // or pass a date to this? int[] parseTweets(Str
       {
         // convert web string into a Java Date object
         time = df.parse(  tweets[i].getChild("published").getContent() );
-
         
-        if ( time.before(festivalDay[fd]) && time.after(lastHour) )
-          tweetsThisHour[0]++;
+        // better way of accessing hour
+        Calendar cc; 
+        cc = null;
+        cc = Calendar.getInstance();
+        cc.setTime(time);
+        println(i + " , " + cc.get(cc.HOUR_OF_DAY) + " , " + time);
+        
+        if ( cc.get(cc.DAY_OF_MONTH) == c.get(c.DAY_OF_MONTH) )
+          tweetsThisHour[ cc.get(cc.HOUR_OF_DAY) ]++;
       }
       catch(ParseException p) { println(p); }
     }
   }
+  
+  
   for ( int i = 0; i < 24; i++)
   {
     println(i+","+tweetsThisHour[i]);
-    // put in a normalization feature here
-    //tweetsThisHour[i] = tweetsThisHour[i] * 2; 
   }
   
   return d;
+}
+
+
+int maxValue(int[] n)
+{
+  int maxValue = n[0];
+  for (int i = 1; i < n.length ; i++ ) 
+    if (n[i] > maxValue)
+        maxValue = n[i];
+  return maxValue; 
 }
 
 void drawCircleDiagram(int[] tweetsThisHour)
@@ -95,13 +111,20 @@ void drawCircleDiagram(int[] tweetsThisHour)
 
   stroke(0, 230, 0, 100);
   fill(0, 200, 0, 40);
+  
+  // normalize the data
+  int maxTweetsThisDay = maxValue( tweetsThisHour);
+  float[] data = new float[24];
+    
   beginShape();
-
+  
   pushMatrix();
   for ( int i = 0; i < tweetsThisHour.length + 1 ; i++ )
   {
+    data[i%tweetsThisHour.length] = (float) tweetsThisHour[ i % tweetsThisHour.length] / maxTweetsThisDay * 100;
+    
     // x = Rcos(theta), y = Rsin(theta) where R is tweetsThisHour
-    vertex( tweetsThisHour[i%tweetsThisHour.length]*cos(i*hourAngle-HALF_PI), tweetsThisHour[i%tweetsThisHour.length]*sin(i*hourAngle - HALF_PI)  );
+    vertex( data[i%data.length]*cos(i*hourAngle-HALF_PI), data[i%data.length]*sin(i*hourAngle - HALF_PI)  );
     // connect back to origin with % operator
   }
   popMatrix();
@@ -111,7 +134,7 @@ void drawCircleDiagram(int[] tweetsThisHour)
   font = createFont( font.list()[0], 32);
   textFont(font);
   // Take just the date from the string that the Date object returns
-  String theDayString = festivalDay[0].toLocaleString();
+  String theDayString = festivalDay[fd].toLocaleString();
   String delims = "[,]";
   String[] tokens = theDayString.split(delims);
   text( new StringBuffer(tokens[0]).insert(3, "e").toString(), -width/2 + 10, -height/2 + 30);

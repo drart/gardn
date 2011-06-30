@@ -1,8 +1,19 @@
 #!/bin/bash
 
+
+# INSTALL 
+# Put in your path and make executable (chmod +x pulltweets.sh)
+
 myQuery="$1"
 page=1
 count=0
+
+function usage
+{
+
+    echo " usage: pulltweets.sh query [numberOfPagesToDownload] "
+    echo " Suggested use: pulltweets.sh #importantevent > importantevent.xml  "
+}
 
 if test -z "$1"
 then
